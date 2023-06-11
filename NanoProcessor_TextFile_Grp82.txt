@@ -1,0 +1,13 @@
+Text file with specific instructions
+
+Slow clock count sets to 25,000,000.
+
+Each of the four bits in register number seven is connected suitably to LEDs 3, 2, 1, and 0 as well as a seven segment display. 
+
+LED 14 displays a signal value of 0.
+Overflow signal is represented by LED 15.
+The BTNC is wired for the reset signal.
+
+Instructions are carried out in a way that adds (1+2+3) in the specified order.
+
+The seven segment display will first display 0 and then 1, then 3(1+2) and then 6 (3+3) which is stored in register 7. When the reset button is pressed, the clock resets to 0.

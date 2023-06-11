@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 19:03:26 2023
+# Process ID: 22016
+# Current directory: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13600 C:\Users\Mamta Nallaretnam\Desktop\Lab_9-10_subu\Lab_9-10\Lab_9-10.xpr
+# Log file: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/vivado.log
+# Journal file: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/Lab_9-10.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 902.195 ; gain = 157.918
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jun 11 19:05:13 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/Lab_9-10.runs/synth_1/runme.log
+[Sun Jun 11 19:05:13 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/Lab_9-10.runs/impl_1/runme.log
+reset_run synth_1
+set_property top NanoProcessor_Sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jun 11 19:07:23 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/Lab_9-10.runs/synth_1/runme.log
+[Sun Jun 11 19:07:23 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Mamta Nallaretnam/Desktop/Lab_9-10_subu/Lab_9-10/Lab_9-10.runs/impl_1/runme.log
+open_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 11 19:11:39 2023...

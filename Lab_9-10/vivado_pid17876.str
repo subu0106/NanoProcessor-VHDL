@@ -1,0 +1,707 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 17876
+License: Customer
+
+Current time: 	Thu Jun 08 17:43:43 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 188 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	A.SUBAVARSHANA
+User home directory: C:/Users/A.SUBAVARSHANA
+User working directory: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/vivado.log
+Vivado journal file location: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/vivado.jou
+Engine tmp dir: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/.Xil/Vivado-17876-LAPTOP-V7M615EQ
+
+GUI allocated memory:	202 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 558 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 56 MB (+56272kb) [00:00:09]
+// [Engine Memory]: 498 MB (+370563kb) [00:00:09]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\A.SUBAVARSHANA\Desktop\Lab_9-10\Lab_9-10.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 576 MB (+55468kb) [00:00:13]
+// [GUI Memory]: 62 MB (+3159kb) [00:00:14]
+// [Engine Memory]: 605 MB (+315kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 6/8/23 5:43:47 PM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 881.672 ; gain = 148.367 
+// Project name: Lab_9-10; location: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 33 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+// PAPropertyPanels.initPanels (Nano_processor.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), Slow_Clock_0 : Slow_Clock(Behavioral) (Slow_clock.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// [GUI Memory]: 68 MB (+3569kb) [00:00:56]
+floatView(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+// Elapsed time: 182 seconds
+selectCodeEditor("Nano_processor.vhd", 952, 344); // cd (w, aG)
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// [GUI Memory]: 72 MB (+115kb) [00:04:10]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), Slow_Clock_0 : Slow_Clock(Behavioral) (Slow_clock.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), Slow_Clock_0 : Slow_Clock(Behavioral) (Slow_clock.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 76 MB (+161kb) [00:04:14]
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+floatView(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, ch)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+// [Engine Memory]: 638 MB (+3589kb) [00:04:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 44 MB. Current time: 6/8/23 5:47:55 PM IST
+// Elapsed time: 33 seconds
+selectCodeEditor("Nano_processor.vhd", 62, 362); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 62, 362, false, false, false, false, true); // cd (w, aG) - Double Click
+selectCodeEditor("Nano_processor.vhd", 57, 368); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 57, 368); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 57, 368, false, false, false, false, true); // cd (w, aG) - Double Click
+selectCodeEditor("Nano_processor.vhd", 104, 368); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 85, 372); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 85, 372, false, false, false, false, true); // cd (w, aG) - Double Click
+selectCodeEditor("Nano_processor.vhd", 85, 372); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 85, 372); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 85, 372, false, false, false, false, true); // cd (w, aG) - Double Click
+typeControlKey((HResource) null, "Nano_processor.vhd", 'c'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Nano_processor.vhd", 52, 96); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 52, 96, false, false, false, false, true); // cd (w, aG) - Double Click
+selectCodeEditor("Nano_processor.vhd", 47, 23); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 47, 23); // cd (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Nano_processor.vhd", 48, 23); // cd (w, aG)
+selectCodeEditor("Nano_processor.vhd", 48, 23, false, false, false, false, true); // cd (w, aG) - Double Click
+typeControlKey((HResource) null, "Nano_processor.vhd", 'c'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+typeControlKey((HResource) null, "Nano_processor.vhd", 'v'); // cd (w, aG)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 27 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Nano_processor.vhd"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), InstructionDecoder0 : Instruction_decoder(Behavioral) (Instruction_decoder.vhd)]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), InstructionDecoder0 : Instruction_decoder(Behavioral) (Instruction_decoder.vhd)]", 7, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("Instruction_decoder.vhd", 103, 46); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 103, 46, false, false, false, false, true); // cd (w, ch) - Double Click
+// [GUI Memory]: 81 MB (+1609kb) [00:06:54]
+selectCodeEditor("Instruction_decoder.vhd", 112, 126); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 112, 126, false, false, false, false, true); // cd (w, ch) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (aP, ch)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (aP, ch)
+selectCodeEditor("Instruction_decoder.vhd", 109, 339); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 109, 339, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Instruction_decoder.vhd", 94, 27); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 94, 27); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 94, 27, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Instruction_decoder.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Instruction_decoder.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 28, 253); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 28, 253, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Instruction_decoder.vhd", 148, 21); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 148, 21); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 148, 21, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Instruction_decoder.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "Instruction_decoder.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 16, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 16, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 86 MB (+644kb) [00:08:39]
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 17, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RegisterBank_Sim(Behavioral) (RegisterBank_Sim.vhd)]", 25, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, InstructionDecoder_Sim(Behavioral) (InstructionDecoder_Sim.vhd)]", 21, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, InstructionDecoder_Sim(Behavioral) (InstructionDecoder_Sim.vhd)]", 21, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("InstructionDecoder_Sim.vhd", 98, 286); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 98, 286, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("InstructionDecoder_Sim.vhd", 114, 274); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 114, 274, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 96, 104); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 96, 104, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_decoder.vhd", 0); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 663 MB. GUI used memory: 46 MB. Current time: 6/8/23 5:53:25 PM IST
+selectCodeEditor("Instruction_decoder.vhd", 124, 108); // cd (w, ch)
+selectCodeEditor("Instruction_decoder.vhd", 124, 108, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Instruction_decoder.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "InstructionDecoder_Sim.vhd", 1); // k (j, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 106, 116); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 106, 116, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (ch): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ch)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'cv' command handler elapsed time: 13 seconds
+dismissDialog("Resetting Runs"); // bv (ch)
+// TclEventType: RUN_LAUNCH
+// bv (ch):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Jun  8 17:54:00 2023] Launched synth_1... Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/synth_1/runme.log [Thu Jun  8 17:54:00 2023] Launched impl_1... Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 114 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 15, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 15, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3Lab4.xdc]", 17, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3Lab4.xdc]", 17, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)
+// TclEventType: DESIGN_CLOSE
+// [GUI Memory]: 95 MB (+4647kb) [00:12:42]
+// [Engine Memory]: 729 MB (+61711kb) [00:12:42]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Common 17-344] 'open_run' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'dO' command handler elapsed time: 3 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 729 MB. GUI used memory: 48 MB. Current time: 6/8/23 5:56:15 PM IST
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), Slow_Clock_0 : Slow_Clock(Behavioral) (Slow_clock.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), Slow_Clock_0 : Slow_Clock(Behavioral) (Slow_clock.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), PC_0 : PC_3(Behavioral) (PC_3.vhd)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), PC_0 : PC_3(Behavioral) (PC_3.vhd)]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, NanoProcessor_Sim(Behavioral) (NanoProcessor_Sim.vhd)]", 23, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, NanoProcessor_Sim(Behavioral) (NanoProcessor_Sim.vhd)]", 23, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, InstructionDecoder_Sim(Behavioral) (InstructionDecoder_Sim.vhd)]", 27, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, InstructionDecoder_Sim(Behavioral) (InstructionDecoder_Sim.vhd)]", 27, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 17 seconds
+selectCodeEditor("InstructionDecoder_Sim.vhd", 100, 95); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 106, 98); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 106, 98, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 100, 165); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 100, 165, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 108, 236); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 108, 236, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 109, 299); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 109, 299, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 108, 331); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 108, 331, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "InstructionDecoder_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("InstructionDecoder_Sim.vhd", 44, 320); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mux_2_way_3_bit_Sim(Behavioral) (Mux_2_way_3_bit_Sim.vhd)]", 28, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mux_2_way_3_bit_Sim(Behavioral) (Mux_2_way_3_bit_Sim.vhd)]", 28, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 99 MB (+148kb) [00:15:11]
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 102, 278); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 102, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Mux_2_way_3_bit_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 104, 365); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 104, 365, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Mux_2_way_3_bit_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 109, 261); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 109, 261, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Mux_2_way_3_bit_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 105, 344); // cd (w, ch)
+selectCodeEditor("Mux_2_way_3_bit_Sim.vhd", 105, 344, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Mux_2_way_3_bit_Sim.vhd", 'v'); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PC_Sim(Behavioral) (PC_Sim.vhd)]", 30, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PC_Sim(Behavioral) (PC_Sim.vhd)]", 30, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 13 seconds
+selectCodeEditor("PC_Sim.vhd", 133, 215); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 128, 264); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 128, 264); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 128, 316); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 135, 108); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 127, 162); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 126, 216); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 125, 265); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 125, 316); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 125, 264); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 126, 319); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 91, 195); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 127, 179); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 125, 251); // cd (w, ch)
+selectCodeEditor("PC_Sim.vhd", 125, 304); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ProgramROM_Sim(Behavioral) (ProgramROM_Sim.vhd)]", 32, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ProgramROM_Sim(Behavioral) (ProgramROM_Sim.vhd)]", 32, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("ProgramROM_Sim.vhd", 60, 275); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 54, 278); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 54, 298); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 182, 335); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 168, 347); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 182, 283); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 182, 283, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 36, 369); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 36, 369, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 32, 298); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 32, 298, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 32, 336); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 32, 336, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 31, 366); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 31, 366, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ProgramROM_Sim.vhd", 33, 366); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 33, 366, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 35, 248); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 35, 248, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 30, 278); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 30, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ProgramROM_Sim.vhd", 31, 278); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 31, 278, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 281); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 281, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 316); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 316); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 316, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 346); // cd (w, ch)
+selectCodeEditor("ProgramROM_Sim.vhd", 34, 346, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ProgramROM_Sim.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), ROMS : Program_ROM(Behavioral) (Program_ROM.vhd)]", 9, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), ROMS : Program_ROM(Behavioral) (Program_ROM.vhd)]", 9, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RegisterBank_Sim(Behavioral) (RegisterBank_Sim.vhd)]", 34, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RegisterBank_Sim(Behavioral) (RegisterBank_Sim.vhd), UUT : Register_bank(Behavioral) (Register_bank.vhd)]", 35, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 153 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: FILE_SET_CHANGE
+// 'cv' command handler elapsed time: 6 seconds
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// bv (ch):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Jun  8 18:03:54 2023] Launched impl_1... Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Bitstream Generation Completed: addNotify
+// Elapsed time: 77 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ch)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'NanoProcessor_Sim' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj NanoProcessor_Sim_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "NanoProcessor_Sim_behav -key {Behavioral:sim_1:Functional:NanoProcessor_Sim} -tclbatch {NanoProcessor_Sim.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [Engine Memory]: 781 MB (+16322kb) [00:22:16]
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source NanoProcessor_Sim.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 107 MB (+2497kb) [00:22:16]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:05:48 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'NanoProcessor_Sim_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1047.414 ; gain = 55.758 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aE (Q, ch)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+// PAResourceOtoP.PAViews_OBJECTS: Objects: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NanoProcessor_Sim.vhd", 3); // k (j, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, NanoProcessor_Sim(Behavioral) (NanoProcessor_Sim.vhd)]", 23, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, NanoProcessor_Sim(Behavioral) (NanoProcessor_Sim.vhd)]", 23, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mux_2_way_3_bit_Sim(Behavioral) (Mux_2_way_3_bit_Sim.vhd)]", 27, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Mux_2_way_3_bit_Sim(Behavioral) (Mux_2_way_3_bit_Sim.vhd)]", 27, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RegisterBank_Sim(Behavioral) (RegisterBank_Sim.vhd)]", 32, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RegisterBank_Sim(Behavioral) (RegisterBank_Sim.vhd)]", 32, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, AdderSubtractor_Sim(Behavioral) (AdderSubtractor_Sim.vhd)]", 24, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, AdderSubtractor_Sim(Behavioral) (AdderSubtractor_Sim.vhd)]", 24, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ch):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'NanoProcessor_Sim' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj NanoProcessor_Sim_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 7274102cc9e7493d9a1738bb5c69833e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot NanoProcessor_Sim_behav xil_defaultlib.NanoProcessor_Sim -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "NanoProcessor_Sim_behav -key {Behavioral:sim_1:Functional:NanoProcessor_Sim} -tclbatch {NanoProcessor_Sim.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:08:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source NanoProcessor_Sim.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1047.414 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'NanoProcessor_Sim_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1047.414 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// Elapsed time: 90 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:02 PM IST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:03 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:03 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:04 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:05 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:06 PM IST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 61 MB. Current time: 6/8/23 6:10:09 PM IST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:13 PM IST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 34, 208); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:18 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:18 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:18 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:19 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 6/8/23 6:10:19 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ch) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// aM (ch): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, aM)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Local server (target is on local machine)", 0); // e (Q, aM)
+// bv (aM):  Open Server : addNotify
+// [GUI Memory]: 113 MB (+601kb) [00:27:20]
+// TclEventType: HW_SERVER_UPDATE
+selectButton("NEXT", "Next >"); // JButton (j, aM)
+dismissDialog("Open Server"); // bv (aM)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)"); // a (C, aM)
+// a (ch): Add Virtual Cable: addNotify
+setText(PAResourceAtoD.AddVirtualCableDialog_HOST_NAME, "Subu"); // l (e, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// Tcl Command: 'open_hw_target -xvc_url Subu:2542'
+dismissDialog("Add Virtual Cable"); // a (ch)
+// bv (ch):  Add XVC Target : addNotify
+// Tcl Message: ERROR: [Labtools 27-3097] Unable to open xvc server Subu:2542. ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'. 
+dismissDialog("Add XVC Target"); // bv (ch)
+selectButton(PAResourceTtoZ.TargetChooserPanel_ADD_XILINX_VIRTUAL_CABLE_AS_HARDWARE, "Add Xilinx Virtual Cable (XVC)"); // a (C, aM)
+// a (ch): Add Virtual Cable: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// Tcl Command: 'open_hw_target -xvc_url Subu:2542'
+dismissDialog("Add Virtual Cable"); // a (ch)
+// bv (ch):  Add XVC Target : addNotify
+// Tcl Message: ERROR: [Labtools 27-3097] Unable to open xvc server Subu:2542. ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'. 
+dismissDialog("Add XVC Target"); // bv (ch)
+selectButton("CANCEL", "Cancel"); // JButton (j, aM)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// 'H' command handler elapsed time: 37 seconds
+dismissDialog("Open New Hardware Target"); // aM (ch)
+// Elapsed time: 188 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aC, ch)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ch): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)

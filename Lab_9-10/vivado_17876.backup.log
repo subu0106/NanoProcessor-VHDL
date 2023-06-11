@@ -1,0 +1,201 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 17:43:24 2023
+# Process ID: 17876
+# Current directory: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28392 C:\Users\A.SUBAVARSHANA\Desktop\Lab_9-10\Lab_9-10.xpr
+# Log file: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/vivado.log
+# Journal file: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 881.672 ; gain = 148.367
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  8 17:54:00 2023] Launched synth_1...
+Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/synth_1/runme.log
+[Thu Jun  8 17:54:00 2023] Launched impl_1...
+Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Common 17-344] 'open_run' was cancelled
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  8 18:03:54 2023] Launched impl_1...
+Run output will be captured here: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'NanoProcessor_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj NanoProcessor_Sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Adder_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/D_FF_EN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF_EN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Instruction_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Mux_2_way_3_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_3_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Mux_8_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Mux_8_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Nano_processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nano_processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/PC_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Register_bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Seven_Segment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Seven_Segment
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.srcs/sources_1/new/Slow_clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clock
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 7274102cc9e7493d9a1738bb5c69833e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot NanoProcessor_Sim_behav xil_defaultlib.NanoProcessor_Sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clock [slow_clock_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_3 [pc_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3 [adder_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF_EN [d_ff_en_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.AdderSubtractor_4 [addersubtractor_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Seven_Segment [seven_segment_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.nanoprocessor_sim
+Built simulation snapshot NanoProcessor_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "NanoProcessor_Sim_behav -key {Behavioral:sim_1:Functional:NanoProcessor_Sim} -tclbatch {NanoProcessor_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source NanoProcessor_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'NanoProcessor_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1047.414 ; gain = 55.758
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'NanoProcessor_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj NanoProcessor_Sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 7274102cc9e7493d9a1738bb5c69833e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot NanoProcessor_Sim_behav xil_defaultlib.NanoProcessor_Sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "NanoProcessor_Sim_behav -key {Behavioral:sim_1:Functional:NanoProcessor_Sim} -tclbatch {NanoProcessor_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source NanoProcessor_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1047.414 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'NanoProcessor_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1047.414 ; gain = 0.000
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+ERROR: [Labtools 27-3097] Unable to open xvc server Subu:2542.
+ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'.
+ERROR: [Labtools 27-3097] Unable to open xvc server Subu:2542.
+ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'.
+close_hw

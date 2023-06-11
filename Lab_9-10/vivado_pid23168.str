@@ -1,0 +1,113 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 23168
+License: Customer
+
+Current time: 	Wed Jun 07 21:38:57 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	A.SUBAVARSHANA
+User home directory: C:/Users/A.SUBAVARSHANA
+User working directory: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/A.SUBAVARSHANA/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/vivado.log
+Vivado journal file location: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/vivado.jou
+Engine tmp dir: 	C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/.Xil/Vivado-23168-LAPTOP-V7M615EQ
+
+GUI allocated memory:	204 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 526 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\A.SUBAVARSHANA\Desktop\Lab_9-10\Lab_9-10.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.xpr 
+// [GUI Memory]: 51 MB (+50884kb) [00:00:07]
+// [Engine Memory]: 526 MB (+400222kb) [00:00:07]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10/Lab_9-10.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+3067kb) [00:00:10]
+// [Engine Memory]: 558 MB (+6008kb) [00:00:10]
+// [GUI Memory]: 67 MB (+8492kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 611 MB. GUI used memory: 39 MB. Current time: 6/7/23 9:39:01 PM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 898.438 ; gain = 152.848 
+// Project name: Lab_9-10; location: C:/Users/A.SUBAVARSHANA/Desktop/Lab_9-10; part: xc7a35tcpg236-1
+// [Engine Memory]: 615 MB (+30083kb) [00:00:13]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 60 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1); // B (D, ch)
+// PAPropertyPanels.initPanels (Seven_Segment.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), svenSeg_0 : Seven_Segment(Behavioral) (Seven_Segment.vhd)]", 13, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd), svenSeg_0 : Seven_Segment(Behavioral) (Seven_Segment.vhd)]", 13, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 50 seconds
+selectCodeEditor("Seven_Segment.vhd", 169, 140); // cd (w, ch)
+// [GUI Memory]: 71 MB (+93kb) [00:06:03]
+// Elapsed time: 360 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nano_processor(Behavioral) (Nano_processor.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seven_Segment.vhd", 0); // k (j, ch)
+// [GUI Memory]: 77 MB (+2828kb) [00:08:29]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_processor.vhd", 1); // k (j, ch)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seven_Segment.vhd", 0); // k (j, ch)
+// [GUI Memory]: 82 MB (+798kb) [00:11:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 41 MB. Current time: 6/7/23 10:25:12 PM IST
+// [GUI Memory]: 86 MB (+515kb) [01:08:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 38 MB. Current time: 6/7/23 10:56:06 PM IST
